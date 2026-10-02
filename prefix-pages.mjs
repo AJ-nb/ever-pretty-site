@@ -14,7 +14,8 @@ function javascript(source){
  const ast=ts.createSourceFile('bundle.js',source,ts.ScriptTarget.Latest,true,ts.ScriptKind.JS);
  const edits=[];
  function visit(node){
-  if((ts.isStringLiteral(node)||ts.isNoSubstitutionTemplateLiteral(node)||node.kind===ts.SyntaxKind.TemplateHead)&&internal.test(node.text)){
+  const rootLink=node.text!=='/'||(ts.isPropertyAssignment(node.parent)&&['href','action','url','path'].includes(node.parent.name.getText(ast).replace(/["'`]/g,'')));
+  if((ts.isStringLiteral(node)||ts.isNoSubstitutionTemplateLiteral(node)||node.kind===ts.SyntaxKind.TemplateHead)&&internal.test(node.text)&&rootLink){
    edits.push(node.getStart(ast)+1);
   }
   ts.forEachChild(node,visit);
