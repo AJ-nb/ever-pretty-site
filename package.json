@@ -1,0 +1,8 @@
+{
+  "name": "ever-pretty-public-site",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "typescript": "6.0.3"
+  }
+}

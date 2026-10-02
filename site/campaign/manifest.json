@@ -1,0 +1,242 @@
+[
+  {
+    "path": "public/campaign/lace-hero-desktop-960.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": {
+      "left": 1740,
+      "top": 0,
+      "width": 2260,
+      "height": 1600
+    },
+    "width": 960,
+    "height": 680,
+    "bytes": 76416,
+    "sha256": "04fa4d2a3de9f98b8ae8da4e4ab9d841ac61efdc5f1a6a694f01e0e1167e11e5"
+  },
+  {
+    "path": "public/campaign/lace-hero-desktop-1440.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": {
+      "left": 1740,
+      "top": 0,
+      "width": 2260,
+      "height": 1600
+    },
+    "width": 1440,
+    "height": 1019,
+    "bytes": 130076,
+    "sha256": "f03acb9c5f451a792064c76febe39908799c1f1450d415cf1c7a8fd5c93b4331"
+  },
+  {
+    "path": "public/campaign/lace-hero-desktop-2160.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": {
+      "left": 1740,
+      "top": 0,
+      "width": 2260,
+      "height": 1600
+    },
+    "width": 2160,
+    "height": 1529,
+    "bytes": 217198,
+    "sha256": "2afcacc045d7d3606459dec1ab0bdc54278715a0956c7a90be20422f888acb57"
+  },
+  {
+    "path": "public/campaign/lace-hero-mobile-480.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": {
+      "left": 1930,
+      "top": 0,
+      "width": 1100,
+      "height": 1600
+    },
+    "width": 480,
+    "height": 698,
+    "bytes": 39996,
+    "sha256": "037a492017c75fbc253f1bd283a57853d2f1ae4b11a47d1bdfb4245355864a87"
+  },
+  {
+    "path": "public/campaign/lace-hero-mobile-780.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": {
+      "left": 1930,
+      "top": 0,
+      "width": 1100,
+      "height": 1600
+    },
+    "width": 780,
+    "height": 1135,
+    "bytes": 76620,
+    "sha256": "38643012fc244a54d2aca4f13bd13ef7915de467512dd4c4cfed6ab9fc6a2fe0"
+  },
+  {
+    "path": "public/campaign/lace-hero-mobile-1040.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": {
+      "left": 1930,
+      "top": 0,
+      "width": 1100,
+      "height": 1600
+    },
+    "width": 1040,
+    "height": 1513,
+    "bytes": 109880,
+    "sha256": "04ba8459477239a88db5524fe8f418287672156a04e467c3f00720a2bd817833"
+  },
+  {
+    "path": "public/campaign/toast-desktop-960.webp",
+    "source": "public/media/original/b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8.png",
+    "sourceHash": "b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8",
+    "crop": {
+      "left": 1840,
+      "top": 0,
+      "width": 2160,
+      "height": 1600
+    },
+    "width": 960,
+    "height": 711,
+    "bytes": 77896,
+    "sha256": "ca4d42340bd44a1ed7fe35dfc6a4dd43f04c4e02f209311bc4a3a9406e3040a0"
+  },
+  {
+    "path": "public/campaign/toast-desktop-1440.webp",
+    "source": "public/media/original/b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8.png",
+    "sourceHash": "b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8",
+    "crop": {
+      "left": 1840,
+      "top": 0,
+      "width": 2160,
+      "height": 1600
+    },
+    "width": 1440,
+    "height": 1067,
+    "bytes": 149160,
+    "sha256": "98116ec6fcb9dd56d5e08b4ff7f1c641f548f6c9a6e2245489348a8b5c3b6421"
+  },
+  {
+    "path": "public/campaign/toast-desktop-2160.webp",
+    "source": "public/media/original/b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8.png",
+    "sourceHash": "b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8",
+    "crop": {
+      "left": 1840,
+      "top": 0,
+      "width": 2160,
+      "height": 1600
+    },
+    "width": 2160,
+    "height": 1600,
+    "bytes": 281112,
+    "sha256": "48ed4558245e88622651f5e09dd0fb52a77e29dbac48684451d036122ee89c81"
+  },
+  {
+    "path": "public/campaign/toast-mobile-480.webp",
+    "source": "public/media/original/b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8.png",
+    "sourceHash": "b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8",
+    "crop": {
+      "left": 2580,
+      "top": 0,
+      "width": 1040,
+      "height": 1600
+    },
+    "width": 480,
+    "height": 738,
+    "bytes": 48558,
+    "sha256": "d9eee0c10c76c8198eb475258dfc3b3544d0a5f76ac1a873caba73c2d83c3f61"
+  },
+  {
+    "path": "public/campaign/toast-mobile-780.webp",
+    "source": "public/media/original/b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8.png",
+    "sourceHash": "b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8",
+    "crop": {
+      "left": 2580,
+      "top": 0,
+      "width": 1040,
+      "height": 1600
+    },
+    "width": 780,
+    "height": 1200,
+    "bytes": 105546,
+    "sha256": "4ad4a7dfd52fe2039c9d1b395f133614030dbd0f84c2a8e072b77d00f6bbcb72"
+  },
+  {
+    "path": "public/campaign/toast-mobile-1040.webp",
+    "source": "public/media/original/b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8.png",
+    "sourceHash": "b3b839f85cf4bda278386bc873555d57c3a72c9e6c3c1fa1b6a772d0d7fff1d8",
+    "crop": {
+      "left": 2580,
+      "top": 0,
+      "width": 1040,
+      "height": 1600
+    },
+    "width": 1040,
+    "height": 1600,
+    "bytes": 166974,
+    "sha256": "7fd2cf895058782a7d79b197c85a44c209b2137986cc64eb7eabe68e1e1d906d"
+  },
+  {
+    "path": "public/campaign/lace-desktop-960.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": null,
+    "width": 960,
+    "height": 384,
+    "bytes": 45372,
+    "sha256": "81da6b1f26b3e650e56184136b557ef87ae1ac1e84bece1a244bab4d7928ff6c"
+  },
+  {
+    "path": "public/campaign/lace-desktop-1600.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": null,
+    "width": 1600,
+    "height": 640,
+    "bytes": 93546,
+    "sha256": "d36b5dcbf4a9b7e4266394dd3ad59ec151e6c1f90beb2a5d8f76be6018b20e4c"
+  },
+  {
+    "path": "public/campaign/lace-desktop-2400.webp",
+    "source": "public/media/original/8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed.png",
+    "sourceHash": "8cc1fb47ec5af8ea38eda284028a88b1cd5d4ff65aa0072cb7285aba2e254eed",
+    "crop": null,
+    "width": 2400,
+    "height": 960,
+    "bytes": 158118,
+    "sha256": "900eefb7468ad40be34b13712ed4fb1bd1a653dac7886cbee8711423430016ea"
+  },
+  {
+    "path": "public/campaign/lace-mobile-480.webp",
+    "source": "public/media/original/5da7a77a5ad56fdc9fa93b0f9613e074b4db972c38efadaa42231de66028d3e0.png",
+    "sourceHash": "5da7a77a5ad56fdc9fa93b0f9613e074b4db972c38efadaa42231de66028d3e0",
+    "crop": null,
+    "width": 480,
+    "height": 640,
+    "bytes": 50058,
+    "sha256": "aece13025a2cf9b8d45efb489e7401d76a59c0d1ba706b391b787f594602c027"
+  },
+  {
+    "path": "public/campaign/lace-mobile-780.webp",
+    "source": "public/media/original/5da7a77a5ad56fdc9fa93b0f9613e074b4db972c38efadaa42231de66028d3e0.png",
+    "sourceHash": "5da7a77a5ad56fdc9fa93b0f9613e074b4db972c38efadaa42231de66028d3e0",
+    "crop": null,
+    "width": 780,
+    "height": 1040,
+    "bytes": 94658,
+    "sha256": "c4f17e9bc99e803932c7e23f35af4424d98f2fe0271c7222971a57f2b70ece5a"
+  },
+  {
+    "path": "public/campaign/lace-mobile-1200.webp",
+    "source": "public/media/original/5da7a77a5ad56fdc9fa93b0f9613e074b4db972c38efadaa42231de66028d3e0.png",
+    "sourceHash": "5da7a77a5ad56fdc9fa93b0f9613e074b4db972c38efadaa42231de66028d3e0",
+    "crop": null,
+    "width": 1200,
+    "height": 1600,
+    "bytes": 156106,
+    "sha256": "d9a0357ef4b0f9bd3ab57e7bca192dd16a3b9e57d29487c5998824917ca56e2e"
+  }
+]
