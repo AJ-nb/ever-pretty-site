@@ -31,7 +31,13 @@ async function walk(dir){for(const entry of await fs.readdir(dir,{withFileTypes:
  let source=await fs.readFile(p,'utf8');
  if(p.endsWith('.js'))source=javascript(source);
  else if(p.endsWith('.json'))source=JSON.stringify(jsonPaths(JSON.parse(source)));
- else if(p.endsWith('.html'))source=source.replace(/(["']|&quot;|&#34;)\/(?=(?:_astro|campaign|data|products|collections|search|wishlist|cart|checkout|account|pages|blogs|source-url)(?:\/|[?#"'&])|["']|&quot;|&#34;)/g,(_,boundary)=>boundary+base+'/');
+ else if(p.endsWith('.html')){
+  source=source.replace(/(["']|&quot;|&#34;)\/(?=(?:_astro|campaign|data|products|collections|search|wishlist|cart|checkout|account|pages|blogs|source-url)(?:\/|[?#"'&])|["']|&quot;|&#34;)/g,(_,boundary)=>boundary+base+'/');
+  // Each srcset candidate has its own URL; quote-boundary replacement only
+  // covers the first candidate and causes larger viewports to request root URLs.
+  source=source.replace(/((?:srcset|imagesrcset)=["'])([^"']+)(["'])/gi,(_,before,value,after)=>
+   before+value.replace(/(^|,\s*)(\/[^\s,]+)/g,(_,separator,url)=>separator+prefix(url))+after);
+ }
  else source=source.replace(/(url\(\s*["']?)(\/[^)"']+)/g,(_,before,url)=>before+prefix(url));
  await fs.writeFile(p,source);
 }}
